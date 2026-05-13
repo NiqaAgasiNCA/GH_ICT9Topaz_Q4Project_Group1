@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Our Site</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="notebooks.html">Notebooks</a>
+            <a href="profile.html">Profile</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="index.html" class="logout">Log out</a>
+        </nav>
+
+        </div>
+
+        <div class="main-content">
+            <div class="title-box">PROFILE</div>
+            <p class="subtitle">Your information</p>
+
+            <div style="display:flex; gap:80px; margin-top:40px;">
+
+            <div class="profile-pic-section">
+                <img id="preview" class="pfp" src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                <input type="file" class="form-control" onchange="previewimage(event)">
+
+                <br><br>
+
+                </div>
+
+                <div class="card">
+                    <h2>Student Information</h2>
+                    <p><b>Student Id</b><br>SN9283241</p>
+                    <p><b>Contact Number</b><br>631839204183</p>
+                    <p><b>Email address</b><br>student@email.com</p>
+                    <p><b>Gender</b><br>Male</p>
+                    <button onclick="alert('Password change feature coming soon!')">Change Password</button>
+                </div>
+
+            </div>
+    </div>
+
+    <footer class="footer">
+    <p>Niqa Agasi & Vita De Guzman | 9 - Topaz ©2026</p>
+    
+    <p>
+        Sources:
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> |
+        <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
